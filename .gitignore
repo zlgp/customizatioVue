@@ -1,0 +1,41 @@
+node_modules/
+package-lock.json
+erdp.serve.config.js
+.vscode/
+.history/
+dist/
+
+# maven ignore
+bin/
+target/
+build/
+
+# eclipse ignore
+.jshintrc
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# project ignore
+**/tmp
+apps - 副本/
+copy.js
+
+# nds
+**/pdm_nds/thirdparty/models/*
+!**/pdm_nds/thirdparty/build/
